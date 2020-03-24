@@ -17,12 +17,6 @@ function unref()
         document.getElementById("toShow").classList.remove("hidden");
         document.getElementById("anonurl").value = anonimizedUrl;
         document.getElementById("bbcode").value = "[url=" + anonimizedUrl + "]" + normalLink + "[/url]";
-        //<a href="https://href.li/?http://example.com/">href.li</a>
         document.getElementById("htmlUrl").value = '<a href="' + anonimizedUrl + '">' + normalLink + "</a>";
     }
 }
-
-// while(temp.contains('//'))
-// {
-//     temp = temp.substring(temp.indexof('//')+1);
-// }
