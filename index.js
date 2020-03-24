@@ -4,7 +4,7 @@ pathname = pathname.substring(pathname.indexOf("?")+1);
 
 if (pathname!=window.location)
 {
-    if (pathname.startsWith('https://') == false || pathname.startsWith('http://') == false)
+    if (pathname.startsWith('https://') == false && pathname.startsWith('http://') == false)
         pathname="http://" + pathname;
     window.location.href = pathname;
 }
