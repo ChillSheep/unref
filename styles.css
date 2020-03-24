@@ -1,0 +1,27 @@
+body,
+html {
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    color: white;
+}
+.h1 {
+    margin-top: 1.25rem;
+}
+
+hr {
+    color: rgb(255, 0, 234);
+    border-top: rgb(255, 0, 234) 1px solid;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
